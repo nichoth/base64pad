@@ -7,7 +7,6 @@ const base64Pad = rfc4648({
 export default base64Pad
 
 
-
 const decode = (string, alphabet, bitsPerChar, name) => {
     // Build the character lookup table:
     /** @type {Record<string, number>} */
@@ -55,11 +54,6 @@ const decode = (string, alphabet, bitsPerChar, name) => {
 
     return out
 }
-
-
-
-
-
 
 
 /**
@@ -130,5 +124,4 @@ function rfc4648 ({ name, bitsPerChar, alphabet }) {
         }
     }
 }
-
 
