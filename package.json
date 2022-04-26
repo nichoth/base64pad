@@ -1,8 +1,9 @@
 {
   "name": "@nichoth/base64pad",
-  "description": "",
+  "description": "Base64 operations",
   "version": "0.0.0",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "postversion": "git push && git push --tags && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/nichoth/base64pad/issues"
   },
-  "homepage": "https://github.com/nichoth/base64pad#readme"
+  "homepage": "https://github.com/nichoth/base64pad#readme",
+  "keywords": [
+    "base64",
+    "encode",
+    "decode"
+  ]
 }
-
